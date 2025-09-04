@@ -1,0 +1,18 @@
+cat > .gitignore <<'EOF'
+# Dependências e build
+node_modules/
+.next/
+out/
+dist/
+coverage/
+.vercel/
+
+# Ambiente
+.env
+.env.*
+!.env.example
+
+# SO/Editor
+.DS_Store
+*.log
+EOF
